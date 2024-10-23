@@ -3,7 +3,7 @@ import dot from '../icons_FEtask/menu.svg';
 import add from '../icons_FEtask/add.svg';
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { fetchTicketsByUser } from '../API/api'; 
+import { fetchTicketsByUser } from '../API/api.js'; 
 import './UserCards.css'; 
 
 const UserCards = () => {

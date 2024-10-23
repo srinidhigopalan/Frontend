@@ -8,7 +8,7 @@ import low from '../icons_FEtask/low.svg';
 import nopriority from '../icons_FEtask/nopriority.svg';
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom'; 
-import { fetchTicketsByPriority } from '../API/api';
+import { fetchTicketsByPriority } from '../API/api.js';
 import './TaskBoard.css'; 
 
 const priorityMap = {
